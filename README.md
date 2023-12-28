@@ -9,13 +9,20 @@ The opencv path is hard coded. I have it installed / set to use c:/opencv
 
 # Issues
 -Actual FPS of retrieved webcam frames is about 2 to 6 fps...
+
 -Hence, entier frame delay calculation is off so the real delay until UDP transmit is wrong
+
 -Detection code is default models from opencv so it's not the best.
+
 -Not multi threaded
 
 # ToDo
 -Better detection model
+
 -Better webcam (DirectShow (Windows) or V4L2 (Linux) or Librealsense)
+
 -Multi-Thread / GPU / Cuda / Vulkan
+
 -Camera settings (Exposure, gain, resolution)
+
 -USB 3.0 camera
